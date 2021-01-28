@@ -1,0 +1,25 @@
+{
+    "name": "muratenes/menu-builder",
+    "description": "Menu builder for laravel application",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Murat Karabacak",
+            "email": "m9urat@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "muratenes\\menu-builder" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "muratenes\\menu-builder\\Tests" : "tests"
+        }
+    }
+}
